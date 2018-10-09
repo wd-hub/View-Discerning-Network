@@ -1,0 +1,12 @@
+net: "../model/train_cdu.prototxt"
+
+base_lr: 0.001
+lr_policy: "step"
+
+stepsize: 20000
+gamma: 0.5
+max_iter: 1200000
+momentum: 0.9
+weight_decay: 0.0002
+iter_size: 1
+solver_mode: GPU
